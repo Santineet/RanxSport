@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>649454365224-igs5nvtkq6vqc5r2tvqmmg3u2llp3cck.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.649454365224-igs5nvtkq6vqc5r2tvqmmg3u2llp3cck</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>649454365224-39q8uirjbicrbqpiv77bse9srgq71fat.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCBkZSAGo0m3mZm2RKf8htaCEMUN3cC8ac</string>
+	<key>GCM_SENDER_ID</key>
+	<string>649454365224</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.pointers.pointerlolappd</string>
+	<key>PROJECT_ID</key>
+	<string>pointer-dev-157210</string>
+	<key>STORAGE_BUCKET</key>
+	<string>pointer-dev-157210.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:649454365224:ios:ab1a440e4f4a1233</string>
+	<key>DATABASE_URL</key>
+	<string>https://pointer-dev-157210.firebaseio.com</string>
+</dict>
+</plist>

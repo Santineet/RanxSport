@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="RanX" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ranx" translatesAutoresizingMaskIntoConstraints="NO" id="Seu-ek-7UH">
+                                <rect key="frame" x="169" y="321" width="37" height="25"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="37" id="N7g-Gg-7dn"/>
+                                    <constraint firstAttribute="height" constant="25" id="z5A-lT-5mC"/>
+                                </constraints>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="njs-DE-hTJ">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Seu-ek-7UH" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BBU-pa-OTo"/>
+                            <constraint firstItem="njs-DE-hTJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="BPS-cw-Ufa"/>
+                            <constraint firstItem="njs-DE-hTJ" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="DEo-B1-BF5"/>
+                            <constraint firstItem="Seu-ek-7UH" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ZS0-id-p41"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="njs-DE-hTJ" secondAttribute="bottom" id="eZK-QC-PQ3"/>
+                            <constraint firstAttribute="trailing" secondItem="njs-DE-hTJ" secondAttribute="trailing" id="xIS-fk-z9d"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="containerView" destination="njs-DE-hTJ" id="33H-l6-pj7"/>
+                        <outlet property="loadingIcon" destination="Seu-ek-7UH" id="36F-pd-ILB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="134"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="ranx" width="40" height="27"/>
+    </resources>
+</document>
